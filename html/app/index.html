@@ -1,0 +1,202 @@
+<!doctype html>
+<html class="no-js" lang="">
+
+<head>
+    <meta charset="utf-8">
+    <meta name="description" content="">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>project</title>
+    <link rel="apple-ch-itoucon" href="apple-touch-icon.png">
+    <link rel="stylesheet" href="/bower_components/swiper/dist/css/swiper.css">
+    <link rel="stylesheet"  href="/bower_components/font-awesome/css/font-awesome.css">
+    <link rel="stylesheet" type="text/css" href="styles/pages/index.css">
+    <!-- Place favicon.ico in the root directory -->
+    <!-- build:css styles/vendor.css -->
+    <!-- bower:css -->
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:css styles/main.css -->
+    <link rel="stylesheet" href="styles/main.css">
+    <!-- endbuild -->
+    <!-- build:js scripts/vendor/modernizr.js -->
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbuild -->
+ 
+</head>
+
+<body>
+    <div class="searchform">
+       <div class="lefticon">
+            <i class="fa fa-long-arrow-left "></i>
+        </div> 
+        
+        <input type="" name="" class="search" placeholder="请输入想要输入的内容">
+        <i class="fa fa-meh-o"></i>
+        <div class="righticon">
+            <i class="fa fa-long-arrow-right"></i>
+        </div>
+    </div>
+        
+    
+      <!-- Swiper -->
+    <div class="swiper-container">
+               <div class="swiper-wrapper">
+                   <div class="swiper-slide"><img src="images/ad1.jpg"> </div>
+                   <div class="swiper-slide"><img src="images/ad2.jpg"> </div>
+                   <div class="swiper-slide"><img src="images/ad3.jpg"> </div>
+                   <div class="swiper-slide"><img src="images/ad4.jpg"> </div>
+                   <div class="swiper-slide"><img src="images/ad5.jpg"> </div>
+               </div>
+        <!-- Add Pagination -->
+                 <div class="swiper-pagination"></div>
+    </div>
+
+    <div class="container iconare">
+            <div class="row">
+                <div class="carrier-icon col-xs-3">
+                    <div class="icon1">
+                        <i class="fa fa-birthday-cake" ></i>
+                        <h6>美食</h6>
+                    </div>
+                </div>  
+                <div class="carrier-icon col-xs-3">
+                    <div class="icon2">
+                       <i class="fa fa-cutlery"></i>
+                        <h6>超市</h6>
+                    </div>
+                </div>  
+                <div class="carrier-icon col-xs-3">
+                    <div class="icon3">
+                        <i class="fa fa-lemon-o"></i>
+                        <h6>生鲜果蔬</h6>
+                    </div>
+                </div>   
+                <div class="carrier-icon col-xs-3">
+                    <div class="icon4">
+                        <i class="fa fa-coffee" color></i>
+                        <h6>甜点饮品</h6>
+                    </div>
+                </div>   
+            </div>
+            <div class="row">
+                <div class="carrier-icon col-xs-3">
+                    <div class="icon5">
+                        <i class="fa fa-heart"></i>
+                        <h6>校园优选</h6>
+                    </div>
+                </div>  
+                <div class="carrier-icon col-xs-3">
+                    <div class="icon6">
+                        <i class="fa fa-home"></i>
+                        <h6>美团专送</h6>
+                    </div>
+                </div>  
+                <div class="carrier-icon col-xs-3">
+                    <div class="icon7">
+                        <i class="fa fa-star"></i>
+                        <h6>夜宵</h6>
+                    </div>
+                </div> 
+                <div class="carrier-icon col-xs-3">
+                    <div class="icon8">
+                        <i class="fa fa-plane"></i>
+                        <h6>代购</h6>
+                    </div>
+                </div>     
+            </div> 
+    </div>         
+    <div class="advice">热门推荐</div>
+    <div class="fengefu"></div>
+    <div class="container ad">
+        <div class="row">    
+            <div class="col-xs-6 adw">
+              
+                <img src="images/item1.jpg" alt="">
+               
+                <div class="text">
+                <ul>
+                   <li><a href="http://www.dianping.com/shop/2437120" ><h5>永和大王</h5></a></li>
+                    <li class="text_address">地址：定西路1295号 </li>
+                </ul>
+                </div>
+            </div>
+            <div class="col-xs-6 adw">
+                
+                <img src="images/item2.jpg" alt="">
+               
+                <div class="text">
+                <ul>
+                    <li><a href="http://www.dianping.com/shop/65776696" ><h5>星巴克</h5></a></li>
+                    <li class="text_address">地址： 思南路50号 </li>
+                </ul>
+                </div>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-xs-6 adw">
+                
+                <img src="images/item3.jpg" alt="">
+              
+                <div class="text">
+                <ul>
+                    <li><a href="http://www.dianping.com/shop/503729" ><h5>棒！约翰</h5></a></li>
+                    <li class="text_address">地址： 鲁班路100号大同花园(近丽园路)</li>
+                </ul>
+                </div>
+            </div>  
+            <div class="col-xs-6 adw">
+                
+                <img src="images/item4.jpg" alt="">
+             
+                <div class="text">
+                <ul>
+                    <li><a href="http://www.dianping.com/shop/2458441" ><h5>肯德基</h5></a></li>
+                    <li class="text_address">地址： 邯郸路608弄50号</li>
+                </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- Swiper JS -->
+    <script src="/bower_components/swiper/dist/js/swiper.min.js"></script>
+
+    <!-- Initialize Swiper -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true
+    });
+    </script>
+    <!-- build:js scripts/vendor.js -->
+    <!-- bower:js -->
+    <script src="/bower_components/jquery/dist/jquery.js"></script>
+    <script src="/bower_components/modernizr/modernizr.js"></script>
+    <!-- endbower -->
+    <!-- endbuild -->
+    <!-- build:js scripts/plugins.js -->
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/affix.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/alert.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/dropdown.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tooltip.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/modal.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/transition.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/button.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/popover.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/carousel.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/scrollspy.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/collapse.js"></script>
+    <script src="/bower_components/bootstrap-sass/assets/javascripts/bootstrap/tab.js"></script>
+    <!-- endbuild -->
+    <!-- build:js scripts/main.js -->
+    <script src="scripts/main.js"></script>
+    <!-- endbuild -->
+    <script>
+    var swiper = new Swiper('.swiper-container', {
+        pagination: '.swiper-pagination',
+        paginationClickable: true
+    });
+    </script>
+</body>
+
+</html>

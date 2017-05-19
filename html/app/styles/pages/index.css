@@ -1,0 +1,198 @@
+ html, body {
+        position: relative;
+        height: 100%;
+        width: 100%;
+    }
+
+    body {
+        background: gray;
+        font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+        font-size: 14px;
+        color:#000;
+        margin: 0;
+        padding: 0;
+    }
+    .swiper-container {
+        width: 100%;
+        height: 20%;
+    }
+    .swiper-slide {
+        text-align: center;
+        font-size: 18px;
+        background: #fff;
+        /* Center slide text vertically */
+        display: -webkit-box;
+        display: -ms-flexbox;
+        display: -webkit-flex;
+        display: flex;
+        -webkit-box-pack: center;
+        -ms-flex-pack: center;
+        -webkit-justify-content: center;
+        justify-content: center;
+        -webkit-box-align: center;
+        -ms-flex-align: center;
+        -webkit-align-items: center;
+        align-items: center;
+    }
+     .swiper-slide  img{
+        width: 100%;
+        height: 100%;
+     }
+    
+    .searchform{
+        background-color: #59BCE7;
+        display: flex;
+        align-items: center;
+        
+        width: 100%;
+        height:60px;
+     
+    }
+    .lefticon{
+        flex-grow: 0;
+
+    }
+    .lefticon .fa{
+        font-size: 20px;
+
+    }
+    .righticon .fa{
+         font-size: 20px;
+    }
+    .fa-meh-o{
+        position: absolute;
+        font-size: 25px;
+        left: 36px;
+    }
+    .searchform .search{
+        border-style: none;
+        border-radius: 10px;
+        margin: 10px;
+        box-sizing: border-box:;
+        padding: 5px;
+        padding-left: 30px;
+        flex-grow: 1;
+    }
+
+    .row{
+        text-align: center;
+    }
+    .iconare{
+        padding-top: 20px;
+    }
+    .icon{
+        padding-top: 10px;
+    }
+
+   .icon1 .fa{
+    font-size: 40px;
+    color: pink;
+    background-color: white;
+    border-radius: 100%;
+   }
+
+    .icon2 .fa{
+    font-size: 40px;
+    color: #6b6eb7;
+    background-color: white;
+    border-radius: 100%;
+   }
+
+
+   .icon3 .fa{
+    font-size: 40px;
+    color: orange;
+    background-color: white;
+    border-radius: 100%;
+   }
+
+
+   .icon4 .fa{
+    font-size: 40px;
+    color: #b89595;
+    background-color: white;
+    border-radius: 100%;
+   }
+
+   .icon5 .fa{
+    font-size: 40px;
+    color: #f54848;
+    background-color: white;
+    border-radius: 100%;
+   }
+
+   .icon6 .fa{
+    font-size: 40px;
+    color: #62b562;
+    background-color: white;
+    border-radius: 100%;
+   }
+
+   .icon7 .fa{
+    font-size: 40px;
+    color: #e67514;
+    background-color: white;
+    border-radius: 100%;
+   }
+
+   .icon8 .fa{
+    font-size: 40px;
+    color: #bd7fbd;
+    background-color: white;
+    border-radius: 100%;
+   }
+
+
+   
+
+
+   .advice{
+   
+    margin: 0px 10px 10px 10px;
+    text-align: center;
+    border-radius: 10px;
+    font-size: 20px;
+    color: red;
+    font-weight:bolder ;
+   }
+  
+
+   .ad .adw{
+    border-style: solid;
+    border-color: #B1AFAF;
+    border-width: 1px;
+    display: flex;
+    flex-direction: column;
+    padding: 0px 0px;
+    height: 150px;
+    }
+
+    .ad .text{
+            width: 100%;
+            position: absolute;
+            bottom: 0px;
+    }
+    .ad ul{
+        
+        list-style: none;
+        padding: 0px;
+        margin: 0px;
+    }
+   
+    .ad .adw img{
+        align-self: center;
+        
+    }
+    
+    .tex#B1AFAFt_address{
+        width: 100%;
+        font-size: 1px;
+        overflow:hidden;
+        white-space: nowrap;
+        text-overflow: ellipsis;
+    }
+    .fengefu{
+        width: 100%;
+        height:6px;
+       background-color: #B1AFAF;
+    }
